@@ -16,6 +16,18 @@
         <mxCell id="n_3xaizeUsxHlGI8QKH6-1" value="mulai" style="ellipse;whiteSpace=wrap;html=1;" parent="PHh5aMQjkStr1Q9YN5CN-3" vertex="1">
           <mxGeometry x="25" y="60" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-48" value="menunggu panggilan" style="whiteSpace=wrap;html=1;" vertex="1" parent="PHh5aMQjkStr1Q9YN5CN-3">
+          <mxGeometry x="25" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-72" value="pasien menerima obat" style="whiteSpace=wrap;html=1;" vertex="1" parent="PHh5aMQjkStr1Q9YN5CN-3">
+          <mxGeometry x="25" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-89" value="selesai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="PHh5aMQjkStr1Q9YN5CN-3">
+          <mxGeometry x="37.5" y="890" width="95" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PHh5aMQjkStr1Q9YN5CN-3" source="PHh5aMQjkStr1Q9YN5CN-72" target="PHh5aMQjkStr1Q9YN5CN-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PHh5aMQjkStr1Q9YN5CN-26" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="170" width="170" height="980" as="geometry" />
         </mxCell>
@@ -28,6 +40,18 @@
         <mxCell id="PHh5aMQjkStr1Q9YN5CN-44" value="sistem menyimpan data" style="whiteSpace=wrap;html=1;" vertex="1" parent="PHh5aMQjkStr1Q9YN5CN-26">
           <mxGeometry x="25" y="120" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-54" value="mendapatkan resep" style="whiteSpace=wrap;html=1;" vertex="1" parent="PHh5aMQjkStr1Q9YN5CN-26">
+          <mxGeometry x="20" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PHh5aMQjkStr1Q9YN5CN-26" source="PHh5aMQjkStr1Q9YN5CN-64" target="PHh5aMQjkStr1Q9YN5CN-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-64" value="mengkonfirmasi pembayaran" style="whiteSpace=wrap;html=1;" vertex="1" parent="PHh5aMQjkStr1Q9YN5CN-26">
+          <mxGeometry x="20" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-86" value="data disimpan di database" style="whiteSpace=wrap;html=1;" vertex="1" parent="PHh5aMQjkStr1Q9YN5CN-26">
+          <mxGeometry x="20" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="PHh5aMQjkStr1Q9YN5CN-30" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="340" width="170" height="980" as="geometry" />
         </mxCell>
@@ -36,6 +60,15 @@
         </mxCell>
         <mxCell id="PHh5aMQjkStr1Q9YN5CN-32" value="dokter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PHh5aMQjkStr1Q9YN5CN-30">
           <mxGeometry width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-50" value="pemeriksaan pasien" style="whiteSpace=wrap;html=1;" vertex="1" parent="PHh5aMQjkStr1Q9YN5CN-30">
+          <mxGeometry x="25" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-52" value="membuar resep" style="whiteSpace=wrap;html=1;" vertex="1" parent="PHh5aMQjkStr1Q9YN5CN-30">
+          <mxGeometry x="40" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PHh5aMQjkStr1Q9YN5CN-30" source="PHh5aMQjkStr1Q9YN5CN-50" target="PHh5aMQjkStr1Q9YN5CN-52">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PHh5aMQjkStr1Q9YN5CN-34" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="510" width="170" height="980" as="geometry" />
@@ -46,6 +79,9 @@
         <mxCell id="PHh5aMQjkStr1Q9YN5CN-36" value="kasir" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PHh5aMQjkStr1Q9YN5CN-34">
           <mxGeometry width="170" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-58" value="mendapatkan total biaya resep" style="whiteSpace=wrap;html=1;" vertex="1" parent="PHh5aMQjkStr1Q9YN5CN-34">
+          <mxGeometry x="25" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="PHh5aMQjkStr1Q9YN5CN-38" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="680" width="170" height="980" as="geometry" />
         </mxCell>
@@ -55,10 +91,13 @@
         <mxCell id="PHh5aMQjkStr1Q9YN5CN-40" value="farmasi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PHh5aMQjkStr1Q9YN5CN-38">
           <mxGeometry width="170" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-60" value="mendapatkan resep untuk disiapkan" style="whiteSpace=wrap;html=1;" vertex="1" parent="PHh5aMQjkStr1Q9YN5CN-38">
+          <mxGeometry x="20" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="PHh5aMQjkStr1Q9YN5CN-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PHh5aMQjkStr1Q9YN5CN-42" target="PHh5aMQjkStr1Q9YN5CN-44">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="120" y="180" />
+              <mxPoint x="120" y="160" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -68,11 +107,101 @@
         <mxCell id="PHh5aMQjkStr1Q9YN5CN-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="n_3xaizeUsxHlGI8QKH6-1" target="PHh5aMQjkStr1Q9YN5CN-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PHh5aMQjkStr1Q9YN5CN-45" target="PHh5aMQjkStr1Q9YN5CN-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="85" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="PHh5aMQjkStr1Q9YN5CN-45" value="mencetak nomor antrian" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="195" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PHh5aMQjkStr1Q9YN5CN-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PHh5aMQjkStr1Q9YN5CN-44" target="PHh5aMQjkStr1Q9YN5CN-45">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PHh5aMQjkStr1Q9YN5CN-48" target="PHh5aMQjkStr1Q9YN5CN-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="380" />
+              <mxPoint x="360" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PHh5aMQjkStr1Q9YN5CN-52" target="PHh5aMQjkStr1Q9YN5CN-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PHh5aMQjkStr1Q9YN5CN-56" target="PHh5aMQjkStr1Q9YN5CN-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="590" />
+              <mxPoint x="530" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PHh5aMQjkStr1Q9YN5CN-56" target="PHh5aMQjkStr1Q9YN5CN-60">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="590" />
+              <mxPoint x="690" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PHh5aMQjkStr1Q9YN5CN-56" target="PHh5aMQjkStr1Q9YN5CN-86">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="590" />
+              <mxPoint x="180" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-56" value="mengirim resep ke farmasi dan kasir" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PHh5aMQjkStr1Q9YN5CN-54" target="PHh5aMQjkStr1Q9YN5CN-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PHh5aMQjkStr1Q9YN5CN-62" target="PHh5aMQjkStr1Q9YN5CN-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="595" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-62" value="cetak kuitansi" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PHh5aMQjkStr1Q9YN5CN-58" target="PHh5aMQjkStr1Q9YN5CN-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PHh5aMQjkStr1Q9YN5CN-66" target="PHh5aMQjkStr1Q9YN5CN-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-66" value="mempersiapkan obat" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PHh5aMQjkStr1Q9YN5CN-60" target="PHh5aMQjkStr1Q9YN5CN-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PHh5aMQjkStr1Q9YN5CN-68" target="PHh5aMQjkStr1Q9YN5CN-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-68" value="obat siap" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PHh5aMQjkStr1Q9YN5CN-70" target="PHh5aMQjkStr1Q9YN5CN-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHh5aMQjkStr1Q9YN5CN-70" value="pasien dipanggil&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22mendapatkan%20total%20biaya%20resep%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22535%22%20y%3D%2260%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="480" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
