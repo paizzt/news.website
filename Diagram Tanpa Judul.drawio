@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.4" pages="4">
   <diagram id="VmJVErrUOmcDrL6i9FpB" name="BPMN">
-    <mxGraphModel dx="1591" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="646" dy="279" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -54,10 +54,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="T0Us1_kyEv9SRKcbb-ls-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.01;entryY=0.398;entryDx=0;entryDy=0;exitX=1.01;exitY=0.574;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="T0Us1_kyEv9SRKcbb-ls-8" edge="1">
+        <mxCell id="T0Us1_kyEv9SRKcbb-ls-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.555;entryY=0.894;entryDx=0;entryDy=0;exitX=1.01;exitY=0.574;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="T0Us1_kyEv9SRKcbb-ls-8" edge="1" target="T0Us1_kyEv9SRKcbb-ls-44">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="620.8" y="42.95999999999992" as="sourcePoint" />
             <mxPoint x="709.1999999999998" y="43.879999999999995" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="43" />
+              <mxPoint x="700" y="120" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="T0Us1_kyEv9SRKcbb-ls-15" value="Memeriksa jumlah dan kondisi barang" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="T0Us1_kyEv9SRKcbb-ls-8" vertex="1">
@@ -69,16 +73,7 @@
         <mxCell id="T0Us1_kyEv9SRKcbb-ls-17" value="Melaporkan permasalahan" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="T0Us1_kyEv9SRKcbb-ls-8" vertex="1">
           <mxGeometry x="540" y="67.5" width="100" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="T0Us1_kyEv9SRKcbb-ls-18" value="Mencatat data barang masuk" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="T0Us1_kyEv9SRKcbb-ls-8" vertex="1">
-          <mxGeometry x="710" y="10" width="100" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="T0Us1_kyEv9SRKcbb-ls-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.502;entryY=-0.034;entryDx=0;entryDy=0;entryPerimeter=0;" parent="T0Us1_kyEv9SRKcbb-ls-8" target="T0Us1_kyEv9SRKcbb-ls-41" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="759.84" y="80" as="sourcePoint" />
-            <mxPoint x="759.84" y="160" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="T0Us1_kyEv9SRKcbb-ls-20" value="Menyimpan barang ke gudang" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="T0Us1_kyEv9SRKcbb-ls-8" vertex="1">
+        <mxCell id="T0Us1_kyEv9SRKcbb-ls-20" value="memindahkan barang sesuai panduan lokasi dari sistem" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="T0Us1_kyEv9SRKcbb-ls-8" vertex="1">
           <mxGeometry x="870" y="10" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="T0Us1_kyEv9SRKcbb-ls-21" value="Menginput lokasi penyimpanan barang" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="T0Us1_kyEv9SRKcbb-ls-8" vertex="1">
@@ -192,13 +187,10 @@
         <mxCell id="T0Us1_kyEv9SRKcbb-ls-40" value="Sistem" style="swimlane;html=1;startSize=20;horizontal=0;" parent="T0Us1_kyEv9SRKcbb-ls-1" vertex="1">
           <mxGeometry x="20" y="245" width="2340" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="T0Us1_kyEv9SRKcbb-ls-41" value="Menyimpan data barang masuk" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="T0Us1_kyEv9SRKcbb-ls-40" vertex="1">
-          <mxGeometry x="710" y="25" width="100" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="T0Us1_kyEv9SRKcbb-ls-42" value="" style="shape=datastore;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" parent="T0Us1_kyEv9SRKcbb-ls-40" vertex="1">
-          <mxGeometry x="600" y="37.5" width="50" height="45" as="geometry" />
+          <mxGeometry x="770" y="37.5" width="50" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="T0Us1_kyEv9SRKcbb-ls-43" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;entryX=-0.025;entryY=0.494;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.942;exitY=0.503;exitDx=0;exitDy=0;exitPerimeter=0;" parent="T0Us1_kyEv9SRKcbb-ls-40" source="T0Us1_kyEv9SRKcbb-ls-42" target="T0Us1_kyEv9SRKcbb-ls-41" edge="1">
+        <mxCell id="T0Us1_kyEv9SRKcbb-ls-43" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="T0Us1_kyEv9SRKcbb-ls-40" source="T0Us1_kyEv9SRKcbb-ls-42" target="T0Us1_kyEv9SRKcbb-ls-42" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="650" y="59.379999999999995" as="sourcePoint" />
             <mxPoint x="810" y="59.379999999999995" as="targetPoint" />
@@ -237,18 +229,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="FSkB-eqcJUptQl6DAZGi-95" value="mencatat data barang masuk berdsarkan kategori" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="T0Us1_kyEv9SRKcbb-ls-40">
+          <mxGeometry x="577" y="37.5" width="100" height="70" as="geometry" />
+        </mxCell>
         <mxCell id="T0Us1_kyEv9SRKcbb-ls-51" value="Pemesan" style="swimlane;html=1;startSize=20;horizontal=0;" parent="T0Us1_kyEv9SRKcbb-ls-1" vertex="1">
           <mxGeometry x="20" y="365" width="2340" height="120" as="geometry" />
         </mxCell>
         <mxCell id="T0Us1_kyEv9SRKcbb-ls-52" value="Memesan barang" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="T0Us1_kyEv9SRKcbb-ls-51" vertex="1">
           <mxGeometry x="1205" y="25" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="T0Us1_kyEv9SRKcbb-ls-54" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.544;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.004;exitY=0.564;exitDx=0;exitDy=0;exitPerimeter=0;" parent="T0Us1_kyEv9SRKcbb-ls-1" source="T0Us1_kyEv9SRKcbb-ls-41" target="T0Us1_kyEv9SRKcbb-ls-20" edge="1">
+        <mxCell id="T0Us1_kyEv9SRKcbb-ls-54" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.544;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="T0Us1_kyEv9SRKcbb-ls-1" source="T0Us1_kyEv9SRKcbb-ls-42" target="T0Us1_kyEv9SRKcbb-ls-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="780" y="340" as="sourcePoint" />
+            <mxPoint x="940.0000000000002" y="270" as="sourcePoint" />
             <mxPoint x="830" y="290" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="944" y="310" />
+              <mxPoint x="944" y="305" />
+              <mxPoint x="944" y="210" />
             </Array>
           </mxGeometry>
         </mxCell>
