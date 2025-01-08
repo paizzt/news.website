@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.4" pages="4">
   <diagram id="VmJVErrUOmcDrL6i9FpB" name="BPMN">
-    <mxGraphModel dx="2068" dy="892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1723" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -54,7 +54,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="T0Us1_kyEv9SRKcbb-ls-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.555;entryY=0.894;entryDx=0;entryDy=0;exitX=1.01;exitY=0.574;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="T0Us1_kyEv9SRKcbb-ls-8" edge="1" target="T0Us1_kyEv9SRKcbb-ls-44">
+        <mxCell id="T0Us1_kyEv9SRKcbb-ls-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.555;entryY=0.894;entryDx=0;entryDy=0;exitX=1.01;exitY=0.574;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="T0Us1_kyEv9SRKcbb-ls-8" target="T0Us1_kyEv9SRKcbb-ls-44" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="620.8" y="42.95999999999992" as="sourcePoint" />
             <mxPoint x="709.1999999999998" y="43.879999999999995" as="targetPoint" />
@@ -159,7 +159,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FSkB-eqcJUptQl6DAZGi-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="T0Us1_kyEv9SRKcbb-ls-8" source="T0Us1_kyEv9SRKcbb-ls-37" target="Qsz-QTXx2OwZZKdzuYLj-1">
+        <mxCell id="FSkB-eqcJUptQl6DAZGi-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="T0Us1_kyEv9SRKcbb-ls-8" source="T0Us1_kyEv9SRKcbb-ls-37" target="Qsz-QTXx2OwZZKdzuYLj-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T0Us1_kyEv9SRKcbb-ls-37" value="Mengecek atau memverifikasi barang" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="T0Us1_kyEv9SRKcbb-ls-8" vertex="1">
@@ -211,20 +211,20 @@
         <mxCell id="T0Us1_kyEv9SRKcbb-ls-48" value="Ya" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="T0Us1_kyEv9SRKcbb-ls-40" vertex="1">
           <mxGeometry x="1210" y="25" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="T0Us1_kyEv9SRKcbb-ls-49" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;exitX=0.268;exitY=0.959;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.227;entryY=1.046;entryDx=0;entryDy=0;entryPerimeter=0;" parent="T0Us1_kyEv9SRKcbb-ls-40" source="T0Us1_kyEv9SRKcbb-ls-42" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="910" y="65" as="sourcePoint" />
-            <mxPoint x="2072.7000000000003" y="98.21999999999991" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="842" y="115" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FSkB-eqcJUptQl6DAZGi-95" value="mencatat data barang masuk berdsarkan kategori" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="T0Us1_kyEv9SRKcbb-ls-40">
+        <mxCell id="FSkB-eqcJUptQl6DAZGi-95" value="mencatat data barang masuk berdsarkan kategori" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="T0Us1_kyEv9SRKcbb-ls-40" vertex="1">
           <mxGeometry x="577" y="37.5" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="FSkB-eqcJUptQl6DAZGi-98" value="Sistem secara berkala membuat laporan stok dan pengeluaran barang" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="T0Us1_kyEv9SRKcbb-ls-40">
+        <mxCell id="FSkB-eqcJUptQl6DAZGi-98" value="Sistem secara berkala membuat laporan stok dan pengeluaran barang" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="T0Us1_kyEv9SRKcbb-ls-40" vertex="1">
           <mxGeometry x="1900" y="12.5" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="T0Us1_kyEv9SRKcbb-ls-49" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;exitX=0.268;exitY=0.959;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.227;entryY=1.046;entryDx=0;entryDy=0;entryPerimeter=0;" parent="FSkB-eqcJUptQl6DAZGi-98" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1250" y="42.50500000000009" as="sourcePoint" />
+            <mxPoint x="39.30000000000018" y="60.06999999999991" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1191.4" y="76.85" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="T0Us1_kyEv9SRKcbb-ls-51" value="Pemesan" style="swimlane;html=1;startSize=20;horizontal=0;" parent="T0Us1_kyEv9SRKcbb-ls-1" vertex="1">
           <mxGeometry x="20" y="365" width="2340" height="120" as="geometry" />
@@ -290,7 +290,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FSkB-eqcJUptQl6DAZGi-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="T0Us1_kyEv9SRKcbb-ls-1" source="T0Us1_kyEv9SRKcbb-ls-31" target="FSkB-eqcJUptQl6DAZGi-98">
+        <mxCell id="FSkB-eqcJUptQl6DAZGi-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="T0Us1_kyEv9SRKcbb-ls-1" source="T0Us1_kyEv9SRKcbb-ls-31" target="FSkB-eqcJUptQl6DAZGi-98" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1820" y="270" as="targetPoint" />
             <Array as="points">
@@ -511,7 +511,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="U7bzsnYD4FrH-LBIW9sB" name="Activity Diagram">
-    <mxGraphModel dx="1477" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -651,7 +651,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rccNkjwFXhrnBwh_I7dh" name="Activity Diagram Barang Keluar">
-    <mxGraphModel dx="1379" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
